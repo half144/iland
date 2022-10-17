@@ -1,0 +1,110 @@
+nav {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#header {
+  height: 70px;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  z-index: 88;
+  max-width: 1400px;
+  transition: 0.5s;
+}
+.search {
+  position: relative;
+  opacity: 1;
+  width: 40%;
+  transition: 1s;
+  min-width: 200px;
+  display: flex;
+  align-items: center;
+}
+.search input {
+  padding: 10px 10px;
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  outline: none;
+  background-color: rgb(34, 34, 34);
+}
+#iconSearch {
+  width: 20px;
+  right: 30px;
+  position: relative;
+  font-weight: bold;
+  cursor: pointer;
+  display: block;
+}
+.logo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+#logo {
+  position: relative;
+  top: 2px;
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+}
+.navigations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  margin-top: 70px;
+}
+.navigations ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+.navigations li {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+  transition: 0.2s;
+}
+.navigations li:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+}
+.login {
+  display: flex;
+  gap: 8px;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.minimal {
+  width: 0px;
+  opacity: 0;
+  display: none;
+}
+.glassHeader {
+  background: rgba(0, 0, 0, 0.838);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6px);
+}
+
+.cartHeaderArea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 640px) {
+  .login p {
+    display: none;
+  }
+}

@@ -1,0 +1,17 @@
+.slideContainerMobile {
+  width: 90vw;
+  border-radius: 28px;
+  margin-top: 1em;
+  height: 600px;
+}
+
+.slideItemMobile img {
+  height: 100%;
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .slideContainerMobile {
+    display: none;
+  }
+}

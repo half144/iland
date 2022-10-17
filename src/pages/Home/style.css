@@ -1,0 +1,14 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+@media (max-width: 600px) {
+  .home {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
