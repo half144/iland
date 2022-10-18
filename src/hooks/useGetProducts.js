@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const url = "https://ilandback.herokuapp.com/";
+const url = "https://ilandback.herokuapp.com";
 
 const useGetProducts = (endpoint) => {
   const [products, setProducts] = useState();
